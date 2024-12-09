@@ -1,0 +1,15 @@
+[package]
+name = "mosaic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+walkdir = "2.5.0"
+image = "0.23.14"
+kamadak-exif = "0.6.1"
+base64 = "0.13.1"
+regex = "1.11.1"
+
+
+[dependencies.img_hash]
+version = "3.0"
